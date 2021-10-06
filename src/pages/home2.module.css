@@ -1,0 +1,139 @@
+.body {
+  background-color: rgb(249, 245, 243);
+  height: 111vh;
+  width: 100vw;
+  overflow-x: hidden;
+  
+}
+
+.first {
+  position: relative;
+  margin:5vh 0vw 0vh 5vw;
+  text-align: center;
+  font-size: small;
+  font-size: xx-large;
+ 
+}
+.downicon {
+  font-size: 1.5vw;
+
+  color: red;
+ 
+  transform: rotate(90deg);
+}
+.upicon {
+  font-size: 1.5vw;
+
+  color: green;
+  transform: rotate(270deg);
+}
+.col1 {
+  background-color: rgb(79,195,247);
+  margin: 2vh 0vw 2vh 1vw;
+  padding:3vh 1vw 2vh 1vw ;
+  font-size: 1vw;
+  /* font-size: small; */
+  /* color: black; */
+  height: 20vh;
+  border-radius: 10%;
+}
+.headline{
+  font-weight: bolder;
+  font-size: 1.5vw;
+  margin: 0;
+}
+.col1 p {
+  font-weight: bold;
+}
+.col2 {
+  background-color: rgb(255, 255, 255);
+  margin:2vh 0vw 2vh 1vw;
+  padding:3vh 1vw 2vh 1vw  ;
+  font-size: 1vw;
+  /* color: rgb(61, 81, 97); */
+  border-radius: 10%;
+  height: 20vh;
+}
+.col3 {
+  background-color: rgb(255, 255, 255);
+  margin: 2vh 0vw 2vh 1vw;
+  padding:3vh 1vw 2vh 1vw;
+  font-size: 1vw;
+
+  border-radius: 10%;
+  height: 20vh;
+}
+.col4 {
+  background-color: rgb(255, 255, 255);
+  margin: 2vh 1vw 2vh 1vw;
+  padding:3vh 1vw 2vh 1vw ;
+  font-size: 1vw;
+  color: rgb(61, 81, 97);
+  border-radius: 10%;
+  height: 20vh;
+}
+
+
+.radarholder{
+  height: 40vh;
+}
+.radar {
+  position: absolute;
+  top: 0;
+  right: 5vw;
+  /* margin: 0vh 0vw 5vh 0vw; */
+  /* height: 30vh; */
+}
+.radar p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5vw;
+  margin-right: 2vw;
+  font-weight: bolder;
+}
+.switchholder {
+  position: absolute;
+  display: flex;
+ 
+  font-size: 1.2vw;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25%;
+  right: 40%;
+  top: 28vh;
+}
+.switch1 {
+  border-radius: 30%;
+  background-color: white;
+  padding: 1vh .2vw 0px .2vw;
+  height: 6vh;
+  width: 8vw;
+  cursor: pointer;
+  /* margin-right: 5px; */
+}
+.switch2 {
+  border-radius: 30%;
+  cursor: pointer;
+  background-color: white;
+  padding: 1vh .2vw 0px .2vw;
+  height: 6vh;
+  width: 8vw;
+  /* margin-left: 5px; */
+}
+.active {
+  background-color: rgb(0,155,229);
+  color: black;
+  font-weight: bolder;
+  transition: .5s;
+  
+}
+
+.downiconholder {
+  display: flex;
+
+  color: red;
+}
+.upiconholder {
+  display: flex;
+
+  color: green;
+}

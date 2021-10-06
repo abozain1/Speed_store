@@ -1,0 +1,32 @@
+.main{
+    background-color: white;
+    
+}
+.holder p{
+margin: 5vh 1vw 0px 1.5vw;
+font-size: .8vw;
+font-weight: bold;
+cursor: pointer;
+}
+.holder p:hover{
+    color:rgb(0,155,229) ;
+    
+    cursor: pointer;
+}
+
+
+.holder{
+    display: flex;
+}
+.headline{
+    margin-right: 15vw;
+}
+.sales{
+    color:rgb(0,155,229) ;
+    border-bottom: 4px solid rgb(0,155,229) ;
+    cursor: pointer;
+}
+.bar{
+    
+    background-color: white;
+}

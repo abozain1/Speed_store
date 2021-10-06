@@ -1,0 +1,96 @@
+
+.main{
+  overflow: scroll;
+  height: 50vh;
+  overflow-x: hidden;
+ 
+}
+.first {
+  position: relative;
+  margin: 2vh 2vw 3vh 0vw ;
+  
+}
+.form {
+  display: block;
+  background-color: rgb(255, 255, 255);
+ 
+  position: relative;
+}
+
+.cart {
+  padding: 1vh 0px 0px 1vw;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  /* border-bottom: solid 1px rgb(241,244,248); */
+}
+.dot {
+  font-size: .5vw;
+  margin-top: 3vh;
+  color: rgb(0,155,229);
+  /* z-index: 1111; */
+}
+.garage {
+  font-size: 2vw;
+  color: rgb(0,155,229);
+  margin-right: .5vw;
+}
+
+.cartp {
+  font-size: 1.3vw;
+  font-weight: bolder;
+}
+.pholder {
+  display: flex;
+  font-size: .8vw;
+
+  margin: 0px 0px 0px 2vw;
+}
+.pholder p,
+b {
+  margin-left: 2.5vw;
+}
+.option {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.5vw;
+  cursor: pointer;
+  
+}
+/* .check {
+  z-index: 11111;
+  
+} */
+
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: rgb(244,219,212);
+  
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgb(24,32,44);
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0,155,229);
+}
+body{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.span{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}

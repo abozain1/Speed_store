@@ -1,0 +1,26 @@
+.container{
+    margin: 4vh 2vw 0px 2vw; 
+     height: 8vh;
+    width: 30vw;
+}
+.progress{
+    background-color: rgb(244,219,212);
+    height: 1vh;
+   /* width: 20vw; */
+}
+.holder{
+    display: flex;
+   
+}
+.holder b{
+    font-size: 1.4vw;
+    margin: 2vh 4vw 0px 2vw;
+
+}
+
+.headline{
+    font-size: 1.5vw;
+    
+    margin: 8vh 0vw 0px 10vw; 
+    font-weight: bolder;
+}
