@@ -14,8 +14,7 @@ export const Authcontextprovider = (props) => {
 //   const history = useHistory();
   const [token, settoken] = useState(initialtoken);
   const [name, setname] = useState('');
-  console.log(token);
-  console.log(name);
+  
   const userislogged = !!token;
   
   const loginhandler = (token,name) => {

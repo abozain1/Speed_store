@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import classes from "./horzinchart.module.css";
 import { IoMdAppstore } from "react-icons/io";
+import './horzintalchart.css'
 const Horzinbar = () => {
   return (
     <Fragment>

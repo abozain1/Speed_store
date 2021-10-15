@@ -63,7 +63,7 @@ const Radar = () => {
 
   return (
     <div>
-      <RadarChart captions={captions} data={data} size={150} />
+      <RadarChart captions={captions} data={data} size={160} />
     </div>
   );
 };
