@@ -9,7 +9,7 @@ font-weight: bold;
 cursor: pointer;
 }
 .holder p:hover{
-    color:rgb(0,155,229) ;
+    color:rgb(255,127,92) ;
     
     cursor: pointer;
 }
@@ -22,8 +22,8 @@ cursor: pointer;
     margin-right: 15vw;
 }
 .sales{
-    color:rgb(0,155,229) ;
-    border-bottom: 4px solid rgb(0,155,229) ;
+    color:rgb(255,127,92) ;
+    border-bottom: 4px solid rgb(255,127,92) ;
     cursor: pointer;
 }
 .bar{

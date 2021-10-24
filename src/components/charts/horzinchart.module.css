@@ -3,10 +3,13 @@
      height: 8vh;
     width: 30vw;
 }
+.container svg{
+    font-size: 2vw;
+}
 .progress{
     background-color: rgb(244,219,212);
     height: 1vh;
-   /* width: 20vw; */
+   width: 20vw;
 }
 .holder{
     display: flex;

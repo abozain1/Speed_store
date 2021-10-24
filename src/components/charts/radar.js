@@ -60,10 +60,17 @@ const Radar = () => {
     22: "22:00",
     
   };
+  const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+let bra=vw*.18;
 
+window.addEventListener('resize', function () { 
+  "use strict";
+  window.location.reload(); 
+});
   return (
     <div>
-      <RadarChart captions={captions} data={data} size={160} />
+      <RadarChart size={bra} captions={captions} data={data} />
     </div>
   );
 };

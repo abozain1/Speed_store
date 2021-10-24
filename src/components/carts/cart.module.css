@@ -27,12 +27,12 @@
 .dot {
   font-size: .5vw;
   margin-top: 3vh;
-  color: rgb(0,155,229);
+  color: rgb(255,127,92);
   /* z-index: 1111; */
 }
 .garage {
   font-size: 2vw;
-  color: rgb(0,155,229);
+  color: rgb(255,127,92);
   margin-right: .5vw;
 }
 
@@ -78,12 +78,12 @@ b {
 
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(24,32,44);
+  background: rgb(255,127,92);
 }
 
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(0,155,229);
+  background: rgb(255,127,92,.6)
 }
 body{
   overflow-x: hidden;

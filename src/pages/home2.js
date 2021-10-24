@@ -3,8 +3,6 @@ import Navbar from "../components/charts/navbar";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-
-
 import Sidenav from "../components/charts/sidenav";
 import { BiPlay } from "react-icons/bi";
 import { VscGraph } from "react-icons/vsc";
@@ -15,6 +13,8 @@ import { Barcontextprovider } from "../store/sidebarcontex";
 import Vertbar from "../components/charts/vertbar";
 import Cartform from "../components/carts/cart";
 import { useState } from "react";
+
+
 
 
 const Homepage2 = () => {
@@ -35,7 +35,7 @@ const Homepage2 = () => {
       <Navbar />
       <Sidenav />
      
-
+<div className={classes.alpha}>
       <Container className={classes.first}>
         <Row>
           <Col  className={classes.col1}>
@@ -70,40 +70,49 @@ const Homepage2 = () => {
               <p>20%</p>
             </div>
           </Col>
-          <Col className={classes.radarholder} md='4'>
-            <div className={classes.radar}>
-              <p>Hourly Sales</p>
-              <Radar />
-            
-            </div>
-          </Col>
         </Row>
-        <div className={classes.switchholder}>
-          <div
-            onClick={togglelist}
-            className={`${classes.switch1} ${!active ? classes.active : ""}`}
-          >
-            <BiListOl />
-            List
-          </div>
-          <div
-            onClick={togglechart}
-            className={`${classes.switch2} ${active ? classes.active : ""}`}
-          >
-            <VscGraph />
-            Graph
-          </div>
-        </div>
         <Row >
-          <Col md='8' >
+          <div className={classes.switchholder}>
+            <div
+              onClick={togglelist}
+              className={`${classes.switch1} ${!active ? classes.active : ""}`}
+              >
+              <BiListOl />
+              List
+            </div>
+            <div
+              onClick={togglechart}
+              className={`${classes.switch2} ${active ? classes.active : ""}`}
+              >
+              <VscGraph />
+              Graph
+            </div>
+          </div>
+          <Col  >
             {!show && <Cartform />}
             {show && <Vertbar />}
           </Col>
-          <Col md='4' >
-            <Horzinbar />
-          </Col>
         </Row>
       </Container>
+      <Container>
+        <Row>
+          
+              <Col className={classes.radarholder} >
+                <div className={classes.radar}>
+                  <p>Hourly Sales</p>
+                  <Radar/>
+                
+                </div>
+              </Col>
+        </Row>
+        <Row>
+          <Col  >
+            <Horzinbar />
+          </Col>
+
+        </Row>
+      </Container>
+      </div>
       </Barcontextprovider>
     </div>
   );

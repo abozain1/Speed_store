@@ -10,10 +10,10 @@ const state = {
   datasets: [
     {
       label: "",
-      backgroundColor: "rgb(5,30,52)",
+      backgroundColor: "rgb(255,127,92)",
       borderColor: "rgba(0,0,0,1)",
       borderWidth: 0.5,
-      barThickness: 10,
+      barThickness: 6,
       
       
       data: [140, 240, 180, 270, 200],
