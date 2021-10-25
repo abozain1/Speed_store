@@ -12,7 +12,7 @@
     align-items: center;
     font-weight: bold;
     font-size: 1.5vw;
-    margin: 1vh 0;
+    margin: 1vh 0vw 0vh 0vw;
   }
   
   .actions {
@@ -25,8 +25,11 @@
     background-color: transparent;
     border: 1px solid black;
     padding: 1vh 2vw;
-    border-radius: 40%;
+    border-radius: 40px;
     margin-left: 1vw;
+    height: 10vh;
+    width: 9vw;
+    font-size: 2vw;
   }
   
   .actions button:hover,
@@ -51,7 +54,7 @@
   }
   .sentp{
     display:flex;
-    
+    font-size: 2vw;
   }
   .holder{
    max-height:35vh;

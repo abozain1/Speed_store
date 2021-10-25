@@ -1,17 +1,18 @@
 import ReactDOM from "react-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter } from "react-router-dom";
+
 
 import "./index.css";
 import App from "./App";
-import { Authcontextprovider } from "./store/autth-context";
+
+import { CartProvider } from "./store/Cart-context";
 
 ReactDOM.render(
-  <Authcontextprovider>
-  <BrowserRouter>
+  <CartProvider>
+  
     <App />
-  </BrowserRouter>
-  </Authcontextprovider>
+ 
+  </CartProvider>
   ,
   document.getElementById("root")
 );

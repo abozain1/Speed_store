@@ -56,12 +56,12 @@ const AvailableMeals = () => {
       
       
     },[img,loadedmeals])
-    // console.log(meals[2].description);
+    
       if (mealerror) {
         return <section className={classes.error}>{mealerror}</section>
         
       }
-      // console.log(loadedmeals);
+      
       const mealslist = meals.map((meal) => (
         <MealItem
         img={meal.img}

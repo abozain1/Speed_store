@@ -38,21 +38,16 @@ width: 10vw;
 
 .actions {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
  
  
 }
 
-@media (min-width: 768px) {
-  .actions {
-    flex-direction: row;
-  }
-}
 
 .cart-item button {
   font: inherit;
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 2vw;
   color: rgb(27,52,75);
   border: 1px solid black;
   width: 3vw;
@@ -60,7 +55,7 @@ width: 10vw;
   border-radius: 10%;
   background-color: white;
   cursor: pointer;
-  margin-left: 1rem;
+  
   margin: .25vh .25vw .25vh 0.25vw;
 }
 
